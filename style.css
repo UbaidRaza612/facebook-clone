@@ -1,0 +1,155 @@
+body {
+
+    background-color: #d3d3d342;
+}
+
+
+
+.main{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro {
+    /* display: inline-block; */
+    margin-right: 112px;
+}
+
+
+.intro h1 {
+    color: #1877f2;
+    font-size: 56px;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.intro p{
+    font-family: SFProDipslay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+form {
+    background-color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #777777;
+    height: 380px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+
+
+.email {
+    border: 1px solid rgb(5 5 5 / 16%);
+    border-radius: 5px;
+    border-spacing: 100px 20px;
+    height: 18px;
+    width: 83%;
+    /* text-align: center; */
+    padding: 14px;
+    margin: 14px;
+    outline: none;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+.password {
+    border: 1px solid rgb(5 5 5 / 16%);
+    border-radius: 5px;
+    border-spacing: 100px 20px;
+    height: 18px;
+    width: 83%;
+    padding: 14px;
+    margin: 14px;
+    font-size: 17px;
+    outline: none;
+}
+
+
+
+
+
+.login{
+    border: 1px solid rgb(5 5 5 / 16%);
+    border-radius: 5px;
+    border-spacing: 100px 20px;
+    width: 91%;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(0 100 255 /89%);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+
+form .login:hover {
+    background: #0f71f1;
+    cursor: pointer;
+  }
+
+
+
+
+form a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #1877f2;
+
+}
+
+
+
+hr{
+    background: #f7f7f7;
+    margin: 16px;
+}
+
+
+
+form button{
+    outline: none;
+  border: none;
+  background: #06b909;
+  padding: 14px 16px;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+
+
+.create-account input{
+    width: 50%;
+}
+
+
+
+
+
+
+
